@@ -1,0 +1,11 @@
+/*css document*/
+
+/*external css file styling "div" of html file*/
+div {
+  background-color: red;
+  color: white;
+  font-family: "Times New Roman",serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
