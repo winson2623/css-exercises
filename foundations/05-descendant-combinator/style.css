@@ -1,0 +1,17 @@
+/*notice how descendents are separated by using space,
+whereas chain does not have space*/
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/*another methods are
+
+.container p
+div .text
+div p
+
+*/
