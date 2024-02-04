@@ -8,7 +8,8 @@ body {
   font-weight: 800;
 }
 
-.para.small-para {
+/*chain p and small-para*/
+p.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,6 +18,9 @@ body {
   font-size: 22px;
 }
 
+/*ID of confirm isolates confirm-button*/
+/*the more specific, the higher up in hierarchy css will put
+1.ID 2.Class 3.Type 4.Universal*/
 #confirm-button {
   background: green;
   color: white;
@@ -29,6 +33,7 @@ body {
   font-size: 20px;
 }
 
+/*create descendant of text, which is child*/
 .text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
